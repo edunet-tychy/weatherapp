@@ -61,7 +61,7 @@ const displayWeatherData = data => {
     const weather = data.consolidated_weather[0];
 
     viewElems.weatherCity.innerText = data.title;
-    viewElems.weatherIcon.src = `https://www.metaweather.com/static/img/weather/${weather.weather_state_abbr}.svg`
+    viewElems.weatherIcon.src = `https://www.metaweather.com/static/img/weather/${weather.weather_state_abbr}.svg`;
     viewElems.weatherIcon.alt = weather.weather_state_name;
 
     const currTemp = weather.the_temp.toFixed(2);
