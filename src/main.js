@@ -97,6 +97,8 @@ const returnToSearch = () => {
         switchView();
         fadeInOut();
     }, 500);
+
+    viewElems.searchInput.value = '';
 }
 
 document.addEventListener('DOMContentLoaded', initializeApp)
