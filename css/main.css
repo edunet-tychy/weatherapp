@@ -54,6 +54,7 @@ body {
     padding: 10px 50px;
     border: 2px solid black;
     font-size: 100%;
+    cursor: pointer;
   }
 
   .weather-info__forecast-view {
@@ -69,4 +70,10 @@ body {
   .weather-info__btn-return {
     padding: 5px 25px;
     border: 2px solid black;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #4CAF50;
+    color: white;
   }
